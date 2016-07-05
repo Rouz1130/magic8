@@ -48,10 +48,7 @@ function randomNumber() {
   return prediction;
 };
 
-
-
-//HERE IS SOME TEXT
-
+//Hello
 
 // User Interface
 $(document).ready(function() {
