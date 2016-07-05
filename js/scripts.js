@@ -45,21 +45,25 @@ function randomNumber() {
   } else if (number === 20) {
     prediction = "Very doubtful";
   }
-
-  console.log(number);
-  console.log(prediction);
+  return prediction;
 };
 
-randomNumber();
+
 
 
 
 
 // User Interface
 $(document).ready(function() {
-  $("from#").submit(function(event) {
+  $("form#ask").submit(function(event) {
     event.preventDefault();
+    var question = $("input#inputtedQuestion").val();
+    var name = $("input#name").val();
+    var age = $("input#age").val();
 
     var output = randomNumber();
+
+    console.log(output);
+
   });
 });
