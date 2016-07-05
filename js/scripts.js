@@ -62,8 +62,9 @@ $(document).ready(function() {
     var age = $("input#age").val();
 
     var output = randomNumber();
-
+    $(".output").text(output);
     console.log(output);
-
+    $("#ask").hide();
+    $("#result").show();
   });
 });

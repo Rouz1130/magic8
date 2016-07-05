@@ -1,5 +1,6 @@
 body {
   background-image: url('../img/stars.jpg');
+
   color:white;
 }
 
@@ -19,4 +20,18 @@ h2 {
 #logo {
   width:35%;
   height:auto
+}
+
+#ask {
+  padding-top:100px;
+}
+
+#result {
+  display: none;
+
+}
+
+.jumbotron{
+  margin-top: 270px;
+  background-color:#d96e26;
 }
