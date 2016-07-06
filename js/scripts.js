@@ -61,7 +61,7 @@ $(document).ready(function() {
     var output = randomNumber();
     $(".output").text(output);
     console.log(output);
-    $("#ask").hide();
-    $("#result").show();
+    $("#ask").hide("slow");
+    $("#result").slideDown("slow");
   });
 });
