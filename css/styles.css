@@ -28,7 +28,14 @@ h2 {
 
 #result {
   display: none;
+}
 
+#result1 {
+  display: none;
+}
+
+#result2 {
+  display: none;
 }
 
 .jumbotron {
