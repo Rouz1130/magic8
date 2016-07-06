@@ -3,6 +3,7 @@ body {
   color:white;
 }
 
+
 h2 {
   text-align: right;
   font-size: 3em;
@@ -30,7 +31,7 @@ h2 {
 
 }
 
-.jumbotron{
+.jumbotron {
   margin-top: 80px;
   background-color:#d96e26;
 }
