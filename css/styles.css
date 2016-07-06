@@ -1,6 +1,5 @@
 body {
   background-image: url('../img/stars.jpg');
-
   color:white;
 }
 
@@ -32,6 +31,15 @@ h2 {
 }
 
 .jumbotron{
-  margin-top: 270px;
+  margin-top: 80px;
   background-color:#d96e26;
+}
+
+.submit {
+  height: 250px;
+  width:auto;
+}
+
+#darthSubmit {
+  margin-left: 10%
 }
