@@ -16,19 +16,46 @@
     </div>
 <!--input form  -->
     <div id="ask">
-            <div class="rows">
+      <div class="rows">
         <div class="col-sm-4">
           <form id="obiSubmit">
-            <input type="image" src="img/ghostObi.jpg" class="btTxt submit img-circle"/>
+              <script>
+              var audio = new Audio("audio/saber.mp3");
+
+              audion.oncanplaythrough = function() {
+                audio.play();
+              }
+
+              audio.loop = true;
+
+              audion.onended = function() {
+                audio.play();
+              }
+              </script>
+            <input type="image" src="img/ghostObi.jpg" class="btTxt submit img-circle" onClick="audio.play()"/>
             <label class="question"></label>
             <br>
+            <!-- <input type="image" src="audio/saber.mp3" width="0" height="0" loop="false" autostart="false"> -->
             <br>
             <input class="form-control inputtedQuestion" type="text" placeholder="Ask Obi">
           </form>
         </div>
         <div class="col-sm-4">
           <form id="darthSubmit">
-            <input type="image" src="img/darth2.jpg" class="btTxt submit img-rounded"/>
+              <script>
+              var audio2 = new Audio("audio/breath.mp3");
+
+              audion.oncanplaythrough = function() {
+                audio.play();
+              }
+
+              audio.loop = true;
+
+              audion.onended = function() {
+                audio.play();
+              }
+              </script>
+            <input type="image" src="img/darth2.jpg" class="btTxt submit img-rounded" onClick="audio2.play()"/>
             <label class="question"></label>
             <br>
             <br>
@@ -37,7 +64,20 @@
         </div>
         <div class="col-sm-4">
           <form id="yodaSubmit">
-            <input type="image" src="img/ghostYoda.jpg" class="btTxt submit img-circle"/>
+            <script>
+            var audio3 = new Audio("audio/danger.mp3");
+
+            audion.oncanplaythrough = function() {
+              audio.play();
+            }
+
+            audio.loop = true;
+
+            audion.onended = function() {
+              audio.play();
+            }
+            </script>
+            <input type="image" src="img/ghostYoda.jpg" class="btTxt submit img-circle" onClick="audio3.play()"/>
             <label class="question"></label>
             <br>
             <br>
@@ -70,9 +110,9 @@
           <input type="image" src="img/yoda.gif" class="btTxt submit img-rounded img-responsive"/>
         </form>
     </div>
-    <div>
-      <img src="img/planet.png" class="img-responsive" alt="planet" id="planet"/>
-    </div>
+    <form id="reset">
+      <input type="image" src="img/planet.png" class="img-responsive" alt="planet" id="planet"/>
+    </form>
 
     <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>
