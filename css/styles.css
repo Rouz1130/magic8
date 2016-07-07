@@ -3,6 +3,11 @@ body {
   color:white;
 }
 
+#inputtedQuestion, textarea {
+  background-color:black;
+  color: #ecec13;
+  font-size:2em;
+}
 
 h2 {
   text-align: right;
@@ -23,7 +28,7 @@ h2 {
 }
 
 #ask {
-  padding-top:100px;
+  padding-top:25%;
 }
 
 #result {
@@ -42,5 +47,19 @@ h2 {
 }
 
 #darthSubmit {
-  margin-left: 10%
+  margin-left: 10%;
+  opacity:0.7;
+  animation: fadein 2.5s;
+}
+
+#obiSubmit {
+  opacity:0.6;
+}
+
+#yodaSubmit {
+  opacity:0.8;
+}
+
+#fighter {
+  display:none
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Magic 8!</title>
+    <title>Jedi Mind Picks</title>
   </head>
   <body class="container">
     <div class="rows">
@@ -12,20 +12,14 @@
         <img src="img/logo.gif" alt="phasing earth" id="logo"/>
       </div>
       <div class="col-md-10">
-        <h2>May the Force Predict You</h2>
-        <!-- <img src="http://www4.flamingtext.com/Tools/download/coollogo_com.png?url=http://de10.engine.flamingtext.com/netfu/tmp28001/coollogo_com-285463636.png&_loc=image" alt="the force logo" /> -->
-      </div>
+        <img src="img/theForce3.png" alt="an image" class="img-responsive" />
     </div>
 <!--input form  -->
     <div id="ask">
-      <label class="question">Question:</label>
-      <input id="inputtedQuestion" class="form-control" type="text" placeholder="Ask a Yes or No Question of the Cosmos">
-      <br>
-      <br>
-      <div class="rows">
+            <div class="rows">
         <div class="col-sm-4">
           <form id="obiSubmit">
-            <input type="image" src="img/ghostObi.jpg" class="btTxt submit img-rounded"/>
+            <input type="image" src="img/ghostObi.jpg" class="btTxt submit img-circle"/>
           </form>
         </div>
         <div class="col-sm-4">
@@ -35,10 +29,14 @@
         </div>
         <div class="col-sm-4">
           <form id="yodaSubmit">
-            <input type="image" src="img/ghostYoda.jpg" class="btTxt submit img-rounded"/>
+            <input type="image" src="img/ghostYoda.jpg" class="btTxt submit img-circle"/>
           </form>
         </div>
         </div>
+        <label class="question"></label>
+        <br>
+        <br>
+        <input id="inputtedQuestion" class="form-control" type="text" placeholder="Ask a Yes or No Question and Click a Jedi Above">
       </div>
 
     </div>
@@ -46,15 +44,12 @@
 <!--result output  -->
     <div id="result" class="jumbotron">
         <h1><span class="output"></span></h1>
-        
         <form id="reset">
           <input type="image" src="img/poster.jpg" class="btTxt submit img-rounded img-responsive"/>
         </form>
-
-
     </div>
 
-
+    <img src="img/planet.jpeg" alt="planet" class="img-responsive" id="fighter"/>
 
     <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>
