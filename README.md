@@ -15,7 +15,7 @@
 
 ## Setup/Installation Requirements
 
-* https://github.com/JoelWaage/magic8
+* https://JoelWaage.github.io/magic8/
 
 ## Known Bugs
 
