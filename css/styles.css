@@ -47,14 +47,35 @@ h2 {
 
 .jumbotron {
   margin-top: 250px;
-  background-image:url("https://66.media.tumblr.com/eea2946429cc443608739f602eefdae2/tumblr_n7axk0PPlF1relaado1_400.gif");
+  background-image:url("../img/colorfulBackground.gif");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-shadow: black 0.3em 0.3em 0.3em;
   opacity:0.7;
   color:#CCCC00;
-  text-align:center;
-  font-family:monospace;
+  text-align: center;
+  font-family: monospace;
+}
+
+#center-img1 {
+  margin-top:100px;
+  margin-left: 280px;
+  width:45%;
+  height:auto;
+}
+
+#center-img2 {
+  margin-top:100px;
+  margin-left: 330px;
+  width:45%;
+  height:auto;
+}
+
+#center-img3 {
+  margin-top:100px;
+  margin-left: 270px;
+  width:45%;
+  height:auto;
 }
 
 .submit {
