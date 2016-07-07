@@ -3,10 +3,11 @@ body {
   color:white;
 }
 
-#inputtedQuestion, textarea {
-  background-color:black;
-  color: #ecec13;
-  font-size:2em;
+.inputtedQuestion, textarea {
+  background: #cce6ff;
+  font-size:1.5em;
+  height:1.5em;
+  width: 80%;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
 }
 
 #ask {
-  padding-top:10%;
+  padding-top:20%;
 }
 
 #result {
@@ -57,15 +58,15 @@ h2 {
 #darthSubmit {
   margin-left: 10%;
   opacity:0.7;
-  animation: fadein 2.5s;
+  /*animation: fadein 2.5s;*/
 }
 
 #obiSubmit {
-  opacity:0.6;
+  opacity:0.7;
 }
 
 #yodaSubmit {
-  opacity:0.8;
+  opacity:0.9;
 }
 
 #fighter {
@@ -135,4 +136,10 @@ h2 {
 
 #titles {
   color:yellow;
+}
+
+#planet {
+  width: 800%;
+  padding-top: 10%;
+  margin-bottom: -180%;
 }
