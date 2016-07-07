@@ -18,29 +18,38 @@ $(document).ready(function() {
 
   $("form#obiSubmit").submit(function(event) {
     event.preventDefault();
-    var question = $("input#inputtedQuestion").val();
-
-    $(".output").text(obiAns);
-    $("#ask").hide("slow");
-    $("#result").slideDown("slow");
+    var obiQuestion = $("input#obiQuestion").val();
+    if (obiQuestion.length  < 7) {
+      $("#obiAsk").fadeIn(1000);
+    } else {
+      $(".output").text(obiAns);
+      $("#ask").hide("slow");
+      $("#result").slideDown("slow");
+    }
   });
 
   $("form#darthSubmit").submit(function(event) {
     event.preventDefault();
-    var question = $("input#inputtedQuestion").val();
-
-    $(".output1").text(darthAns);
-    $("#ask").hide("slow");
-    $("#result1").slideDown("slow");
+    var darthQuestion = $("input#darthQuestion").val();
+    if (darthQuestion.length < 7) {
+      $("#darthAsk").fadeIn(1000);
+    } else {
+      $(".output1").text(darthAns);
+      $("#ask").hide("slow");
+      $("#result1").slideDown("slow");
+    }
   });
 
   $("form#yodaSubmit").submit(function(event) {
     event.preventDefault();
-    var question = $("input#inputtedQuestion").val();
-
-    $(".output2").text(yodaAns);
-    $("#ask").hide("slow");
-    $("#result2").slideDown("slow");
+    var yodaQuestion = $("input#yodaQuestion").val();
+    if (yodaQuestion.length < 7) {
+      $("#yodaAsk").fadeIn(1000);
+    } else {
+      $(".output2").text(yodaAns);
+      $("#ask").hide("slow");
+      $("#result2").slideDown("slow");
+    }
   });
 
 

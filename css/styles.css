@@ -161,3 +161,16 @@ h2 {
   padding-top: 12%;
   margin-bottom: -180%;
 }
+
+#obiAsk {
+  display:none;
+}
+
+#darthAsk {
+  display: none;
+  margin-left:10%;
+}
+
+#yodaAsk {
+  display:none;
+}
