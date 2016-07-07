@@ -12,6 +12,10 @@ var yodaAns = yodaAnswer[Math.floor(Math.random()*yodaAnswer.length)];
 
 // User Interface
 $(document).ready(function() {
+
+  $("body").css("display", "none");
+  $("body").fadeIn(2000);
+
   $("form#obiSubmit").submit(function(event) {
     event.preventDefault();
     var question = $("input#inputtedQuestion").val();
