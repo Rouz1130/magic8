@@ -25,18 +25,18 @@ $(document).ready(function() {
     event.preventDefault();
     var question = $("input#inputtedQuestion").val();
 
-    $(".output").text(darthAns);
+    $(".output1").text(darthAns);
     $("#ask").hide("slow");
-    $("#result").slideDown("slow");
+    $("#result1").slideDown("slow");
   });
 
   $("form#yodaSubmit").submit(function(event) {
     event.preventDefault();
     var question = $("input#inputtedQuestion").val();
 
-    $(".output").text(yodaAns);
+    $(".output2").text(yodaAns);
     $("#ask").hide("slow");
-    $("#result").slideDown("slow");
+    $("#result2").slideDown("slow");
   });
 
 
