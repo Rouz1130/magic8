@@ -58,15 +58,26 @@ h2 {
 #darthSubmit {
   margin-left: 10%;
   opacity:0.7;
-  /*animation: fadein 2.5s;*/
+}
+
+#darthSubmit:hover {
+  opacity:1;
 }
 
 #obiSubmit {
   opacity:0.7;
 }
 
+#obiSubmit:hover {
+  opacity:1;
+}
+
 #yodaSubmit {
-  opacity:0.9;
+  opacity:0.85;
+}
+
+#yodaSubmit:hover {
+  opacity:1;
 }
 
 #fighter {
