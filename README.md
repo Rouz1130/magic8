@@ -23,7 +23,7 @@ Page flashes on load due to fade in effect.
 
 ## Support and contact details
 
-joeltwaage@gmail.com
+joeltwaage@gmail.com & russdavies392@gmail.com
 
 ## Technologies Used
 HTML, CSS, JavaScript, Jquery, bootstrap
