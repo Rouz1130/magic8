@@ -2,7 +2,7 @@
 
 #### Star Wars themed magic 8 ball predictor, July 7, 2016
 
-#### By **Joel Waage, Rouz Majlessi, Shokouh Farvid, Russ Davies**
+#### By **Rouz Majlessi, Joel Waage, Shokouh Farvid, Russ Davies**
 
 ## Description
 
@@ -15,7 +15,7 @@
 
 ## Setup/Installation Requirements
 
-* https://JoelWaage.github.io/magic8/
+* https://github.com/Rouz1130/magic8
 
 ## Known Bugs
 
@@ -23,10 +23,10 @@ Page flashes on load due to fade in effect.
 
 ## Support and contact details
 
-joeltwaage@gmail.com & russdavies392@gmail.com
+ rmajlessi@gmail.com & joeltwaage@gmail.com & russdavies392@gmail.com
 
 ## Technologies Used
 HTML, CSS, JavaScript, Jquery, bootstrap
 
 ### License
-Copyright (c) 2016 ** Russ Davies Inc.**
+Copyright (c) 2016 ** Rouz Majlessi Inc.**
