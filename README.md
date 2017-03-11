@@ -13,9 +13,9 @@
 |Reload prediction page|Click|Load prediction page|
 
 
-## Setup/Installation Requirements
-
-* https://github.com/Rouz1130/magic8
+## Setup/Installation Requirement
+* Go to URL below to demo
+* https://rouz1130.github.io/magic8-star-wars/magic8.html
 
 ## Known Bugs
 
